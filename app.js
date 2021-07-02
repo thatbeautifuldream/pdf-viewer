@@ -1,4 +1,4 @@
-const url = "./milind-resume.pdf";
+const url = "./book.pdf";
 
 (async function () {
   // Specified the workerSrc property
