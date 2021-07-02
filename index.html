@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Milind's Resume</title>
+    <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="res.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container_fluid p-2 bg-light text-center my-2">
+      <button id="previous" class="btn btn-light mx-2">⬅️</button>
+      <h6 id="pageNumber">Page 1 of 1</h6>
+      <button id="next" class="btn btn-light mx-2">➡️</button>
+    </div>
+
+    <div class="controls"></div>
+
+    <canvas id="canvas"></canvas>
+
+    <div class="text-center fixed-bottom my-3">
+      <footer class="font-weight-regular text-muted">
+        Made with ❤️&nbsp; by
+        <a
+          href="https://github.com/thatbeautifuldream/thatbeautifuldream"
+          target="_blank"
+          class="link-primary"
+          >Milind Mishra</a
+        >
+      <footer/>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
